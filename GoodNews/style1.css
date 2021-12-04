@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    
+}
+h1 {
+    color: #b9b9c4;
+}
+
+section {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    flex-grow: 1;
+}
+
+section > h1 {
+    text-transform: uppercase;
+    color: black;
+}
+
+article h1 {
+    font-size: 1.5rem;
+    margin-bottom: 8px
+}
+
+#principal {
+    background-color: #bebdbd;
+
+      
+}
+
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color:black;
+}
+a:hover {
+    color: blue;
+}
+
+#logo{
+    width: 230px;
+    height: 140px;
+}
+
+header{
+
+    background-image: linear-gradient(to right, whitesmoke, black);
+    padding: 10px 20px;
+
+} /* cores #1f1f3a, #c0bdbd */
+
+#content {
+    padding: 10px;
+    background-color:gray;
+}
+ 
+
+#menu li {
+    margin: 10px 0;
+    }
+    
+    #menu a {
+    height: 100%;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    transition: 300ms;
+    background-color: var(--cor-secundaria);
+    margin-top: 48px;
+    }
+    
+    #menu a:hover {
+    filter: brightness(0.8); /* Diminui o brilho em 20%, deixando mais escuro */
+    text-decoration: none;
+    }
+    
+    #topnav {
+    display: inline-block;
+    position: relative;
+    }
+    
+    #topnav input, #topnav span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+    
+    #topnav input {
+    z-index: 100; /* Traz o input para cima */
+    opacity: 0; /* Esconde o input */
+    display: none;
+    }
+    
+    #topnav span {
+    display: block;
+    background-color: var(--cor-primaria);
+    border-radius: 4px;
+    border: 2px solid #FFFFFF;
+    background-image: url('img/menu-icon-48x48.png');
+    background-size: 40px 40px;
+    background-position: center center;
+    cursor: pointer; /* Cursor de mãozinha */
+    display: none;
+    }
+    
+    /* Seletor ~: seleciona o próximo elemento (irmão) */
+    #topnav input:checked ~ span {
+    /* Troca a imagem */
+    background-image: url('img/close-icon-48x48.png');
+    }
+
+    @media screen and (max-width: 940px) {
+        #menu {
+        min-height: 88px;
+        }
+        #menu ul {
+        margin-top: 50px;
+        margin-left: -18px;
+        }
+        #menu ul li { /* Menu vertical */
+        display: block;
+        margin: 0;
+        padding: 12px 0;
+        }
+        #menu a {
+            width: 100%;
+        }
+        #topnav {
+        margin-top: 24px;
+        width: 100%;
+        flex-direction: column;
+        }
+        #topnav ul {
+        display: none;
+        }
+         /*Mostra o botão do menu*/
+        #topnav input, #topnav span {
+        display: block;
+        }
+        #topnav input:checked ~ ul {
+        display: block;
+        }
+        
+        #content {
+        flex-direction: column; /* Os filhos ficarão em coluna, na vertical */
+        width: 100%;
+        }
+      
+        div  {
+        width: 100%;
+        }
+        aside {
+        margin-left: 0;
+        width: 40%;
+        }
+        aside > article > h1 {
+        text-align: center;
+        }
+        footer {
+        flex-direction: column;
+        }
+        footer > * { /* Todos os filhos DIRETOS de footer */
+        margin-bottom: 12px;
+        }
+        footer ul li:first-child { /* Só o primeiro (first-child) li */
+        padding-left: 0;
+        }
+        footer address {
+        text-align: right;
+        }
+        }
+      

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="236.409" height="192.589" viewBox="0 0 236.409 192.589">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(110.705 103.705)">
+    <text id="Good_News" data-name="Good News" transform="matrix(0.978, -0.208, 0.208, 0.978, -100.578, 32.431)" fill="#fafafa" stroke="#5a5a5a" stroke-width="1" font-size="48" font-family="TimesNewRomanPSMT, Times New Roman"><tspan x="0" y="0">Good News</tspan></text>
+    <g id="layer1" transform="translate(-105.833 -153.374)">
+      <path id="path834" d="M113.139,80.042c-29.3.037-55.118,20.914-62.59,49.621l113.375-24.082C152.4,90.007,133.566,79.729,113.139,80.042Zm62.646,81.083L62.466,186.485c12.254,14.8,31.606,24.436,50.673,24.462a64.767,64.767,0,0,0,62.646-49.821Z" transform="translate(0 0)" fill="rgba(245,245,245,0.94)"/>
+      <path id="path2534" d="M-10.232,104.88l-6.653-1.669-5.148,4.529L-22.5,100.9l-5.9-3.492,6.365-2.556,1.5-6.687,4.4,5.257,6.83-.641-3.645,5.806Z" transform="translate(125.188 3.411)" fill="#c8c8c8"/>
+      <path id="path2536" d="M-10.232,104.88l-6.653-1.669-5.148,4.529L-22.5,100.9l-5.9-3.492,6.365-2.556,1.5-6.687,4.4,5.257,6.83-.641-3.645,5.806Z" transform="translate(142.608 92.753)" fill="#c8c8c8"/>
+      <path id="path2577" d="M197.9,101.512C176.562,66.594,139.9,45.806,98.324,52.683c-65.894,10.86-75.639,61.356-77.491,84.557" transform="translate(0)" fill="none" stroke="rgba(245,245,245,0.94)" stroke-linejoin="bevel" stroke-width="3.333"/>
+      <path id="path2581" d="M25.924,135.891c1.791-17.293,14.05-67.575,70.824-76.729,60.033-10.408,91.053,35.856,93.471,44.223" fill="none" stroke="rgba(245,245,245,0.94)" stroke-width="1.222"/>
+      <path id="path2583" d="M28.77,174.415c21.333,34.918,57.994,55.705,99.572,48.829,65.894-10.86,75.639-61.357,77.491-84.557" transform="translate(0 16)" fill="none" stroke="rgba(245,245,245,0.94)" stroke-linejoin="bevel" stroke-width="3.333"/>
+      <path id="path2585" d="M200.2,140.865c-1.791,17.292-14.05,67.575-70.824,76.729C69.347,228,38.327,181.739,35.908,173.371" transform="translate(0 16)" fill="none" stroke="rgba(245,245,245,0.94)" stroke-width="1.222"/>
+    </g>
+  </g>
+</svg>
